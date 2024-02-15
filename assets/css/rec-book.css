@@ -1,0 +1,152 @@
+/* NICK S 15/02/24 */
+
+.center-text {
+    text-align: center;
+}
+.main-header {
+    color: #2e524f;
+    
+}
+
+h2 {
+    color: #36605b;
+}
+
+.nav-bar li a {
+    color: #E78895;
+}
+
+.info-recipe-box {
+    display: block;
+    float: left;
+}
+
+.recipe-area {
+    padding: 5px;
+    background-color: #fff7f1;
+    border-radius: 10px;
+}
+
+.align-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #fff8f2;
+}
+
+* {
+    font-family: Tahoma, Sans-serif;
+    box-sizing: border-box;
+}
+
+.heading-text-h2 {
+    padding: 0;
+}
+
+td {
+    padding-left: 8px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.accent-2 {
+    background-color: #FFE4C9;
+}
+
+.pl-8 {
+    padding-left: 8px;
+    text-align: center;
+}
+
+.pl-5 {
+    padding-left: 10px !important;
+}
+
+.rdi {
+    max-height: 400px;
+}
+
+.cdi-text {
+    margin: 0;
+    height: 80%;
+
+}
+
+thead th {
+    background-color: #BED1CF;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #BED1CF;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.pl-15 {
+    padding-left: 15px !important;
+}
+
+.cdi {
+    float: left;
+    height: 50%;
+    width: 50%;
+}
+
+.center-divs {
+    max-width: 500px;
+    text-align: center !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+}
+
+.fl-clear {
+    position: absolute;
+    bottom: -4rem;
+}
+
+.row {
+    margin-left:-5px;
+    margin-right:-5px;
+}
+    
+.quick-tip {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.nav-bar {
+    list-style: none;
+}
+.nav-bar li {
+    display: inline-block;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.guide {
+    /* make it go below everything else and not float to left of the other tables */
+    clear: both;
+    display: block;
+    margin-top: 1rem;
+}

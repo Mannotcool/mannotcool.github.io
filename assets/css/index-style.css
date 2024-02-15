@@ -1,0 +1,51 @@
+/** Nick's Fun Website Stylesheet 02-07-24 **/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #FEFEFA;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.big-text {
+    font-size: large;
+}
+
+.container {
+    padding: 10px;
+}
+
+.max-width-600 {
+    max-width: 50%;
+}
+
+.float {
+    float: left;
+}
+
+.nav-bar li a {
+    color: #2e5053;
+}
+
+.nav-bar li:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+.nav-bar li {
+    min-width: 12rem;
+    text-align: center;
+}
+
+.nav-bar {
+    list-style: none;
+}
+.nav-bar li {
+    display: inline-block;
+}
