@@ -1,0 +1,106 @@
+/* NICK S 02/22/24 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #EDF4ED;  
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+.lighter {
+    font-variant: small-caps;
+}
+
+.big-text {
+    font-size: large;
+}
+
+#titlesubheading {
+    padding-top: -5;
+    line-height: 5px;
+    color: #51291E;
+}
+
+#main-heading {
+    padding: 0;
+    margin: 0;
+    color: #301014;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bx-cnt {
+    padding: 20px;
+    margin: 0;
+}
+
+.bx-img {
+    float: left;    
+    margin: 0 15px 0 0;
+}
+
+.bx-cnt h5 {
+    line-height: 5px;
+}
+
+/* Google Aid TY */
+
+.box {
+    height: 400px;
+    width: 800px;
+    background-color: #e6f0e6;
+    position: relative;
+    margin-top: 20px;
+}
+
+.top-left {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-left: 5px solid #ABD1B5;
+    border-top: 5px solid #ABD1B5;
+    height: 30px;
+    width: 30px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border-bottom: 5px solid #ABD1B5;
+    border-right: 5px solid #ABD1B5;
+    height: 30px;
+    width: 30px;
+}
+
+/* end */
+
+
+
