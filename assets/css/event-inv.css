@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #E6F2FF;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#title-invite-header {
+    color: #014182;
+    padding: 20px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+#subtitle-invite-header {
+    color: #0a4579;
+    font-weight: 400;
+}
+
+.featured-image {
+    padding-top: 30px !important;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.signup-area {
+    text-align: center;
+    padding: 15px;
+}
+
+h5 {
+    color: hsl(210, 83%, 31%);
+
+}
+.signup-area h4 {
+    color: #014182;
+}
+
+
+.primary-button {
+    padding: 10px;
+    border: none;
+    background-color: #014182;
+    color: #E6F2FF;
+    display: inline-block;
+    cursor: pointer;
+}
+.primary-button:hover {
+    background-color: #014d99;
+    color: #E6F2FF;
+}
+
+.secondary-button {
+    padding: 10px;
+    border-color: #014182;
+    background-color: #E6F2FF;
+    color: #014182;
+    display: inline-block;
+    cursor: pointer;
+}
+.secondary-button:hover {
+    background-color: #014d99;
+    color: #E6F2FF;
+}
+
+.detail-p {
+    padding: 30px;
+    color: #014182;
+}
+
+.one-time-return {
+    color: #ed940e;
+    padding-bottom: 15px;
+}
+
+.one-time-return:visited {
+    color: #ffa115;
+}
